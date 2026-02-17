@@ -1,7 +1,7 @@
-# AuthRail
+# Authrail
 
 <p align="center">
-  <img src="images/authrail.png" alt="AuthRail Logo" width="140" />
+  <img src="https://res.cloudinary.com/thirtythree/image/upload/v1771369678/authrail_o1kis8.png" alt="AuthRail Logo" width="140" />
 </p>
 
 <p align="center">
