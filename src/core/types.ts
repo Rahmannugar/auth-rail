@@ -10,8 +10,7 @@ export type MiddlewareResult<Ctx> = {
 
 export type Middleware<Ctx> = (
   ctx: Readonly<Ctx>,
-  next: () => Promise<MiddlewareResult<Ctx>>,
-) => Promise<MiddlewareResult<Ctx>>;
+) => Promise<MiddlewareResult<Ctx> | void>;
 
 export type RailResult<Ctx> = {
   decision: Decision;
