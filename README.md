@@ -6,6 +6,8 @@
 
 <p align="center">
   <strong>Framework-agnostic, client-side policy engine for web applications.</strong>
+  <br />
+  <a href="https://authrail.vercel.app/">Website</a> &middot; <a href="https://www.npmjs.com/package/authrail">NPM</a>
 </p>
 
 <p align="center">
@@ -325,9 +327,15 @@ A: AuthRail defaults to `{ type: "allow" }`. We believe policies should be expli
 
 ## Demo
 
-A complete demo application with authentication, role gating, and policy toggling is available here:
+A complete demo application with authentication, role gating, and policy toggling is available here to help you understand and test the features:
 
 👉 [https://github.com/Rahmannugar/authrail-demo](https://github.com/Rahmannugar/authrail-demo)
+
+---
+
+## Live Website
+
+You can visit the live website at: [https://authrail.vercel.app/](https://authrail.vercel.app/)
 
 ---
 

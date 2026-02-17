@@ -1,6 +1,6 @@
 {
   "name": "authrail",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Framework-agnostic client-side policy engine for web applications",
   "type": "module",
   "main": "./dist/index.js",
