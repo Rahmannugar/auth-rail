@@ -1,0 +1,12 @@
+src/
+node_modules/
+dist-test/
+coverage/
+.vscode/
+.github/
+.env
+.env.*
+tsconfig.json
+tsconfig.*.json
+*.log
+*.tgz

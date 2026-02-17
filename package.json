@@ -1,0 +1,43 @@
+{
+  "name": "authrail",
+  "version": "1.0.1",
+  "description": "Framework-agnostic client-side policy engine for web applications",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahmannugar/auth-rail.git"
+  },
+  "homepage": "https://github.com/Rahmannugar/auth-rail#readme",
+  "bugs": {
+    "url": "https://github.com/Rahmannugar/auth-rail/issues"
+  },
+  "keywords": [
+    "authorization",
+    "access-control",
+    "policy-engine",
+    "middleware",
+    "react",
+    "auth"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "dev": "tsup src/index.ts --format esm --dts --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
