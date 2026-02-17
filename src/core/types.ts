@@ -21,3 +21,7 @@ export type Rail<Ctx> = {
   name: string;
   evaluate(ctx: Ctx): Promise<RailResult<Ctx>>;
 };
+
+export type RailOptions = {
+  debug?: boolean;
+};

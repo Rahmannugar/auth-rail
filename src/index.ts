@@ -6,3 +6,4 @@ export * from "./middleware/blockIf";
 export * from "./middleware/allowIf";
 export * from "./react/useRail";
 export * from "./react/RailBoundary";
+export * from "./react/protect";
