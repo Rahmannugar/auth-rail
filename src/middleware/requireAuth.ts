@@ -1,6 +1,6 @@
 import type { Middleware } from "../core/types";
 
-export function requireAuth<Ctx extends { user: unknown | null }>(
+export function requireAuth<Ctx extends { user?: unknown | null }>(
   redirectTo: string,
 ): Middleware<Ctx> {
   async function requireAuthMiddleware(ctx: Ctx) {
